@@ -20,7 +20,12 @@ function calculatesFarePrice(distance){
 
      function calculatesFarePrice(start, destination){
        let x = '';
-     let n =Math.abs(start-destination)*528-800;
+       if (start, destination===43, 44){
+         
+       
+     x =Math.abs(start-destination)*528-800;
      if (n<1){return 0}
      else {return n}
      }
+} //belong to if(stat...)
+
