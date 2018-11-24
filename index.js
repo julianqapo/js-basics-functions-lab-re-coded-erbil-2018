@@ -16,9 +16,10 @@ function calculatesFarePrice(distance){
      else if ((distance > 400) && (distance <2000)) {return distance * 2- (400*2);}
      else {console.log("cannot travel that far")}
 
-function calculatesFarePrice(start, destination){
-     let n ='';
-     n = Math.abs(start-destination);
-     let f = n*528-800;
-     if (f<1){return 0}
- }
+
+
+     function calculatesFarePrice(start, destination){
+     let n =Math.abs(start-destination)*528-800;
+     if (n<1){return 0}
+     else {return n}
+     }
