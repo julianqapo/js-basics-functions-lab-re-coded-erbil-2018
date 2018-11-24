@@ -24,7 +24,7 @@ function calculatesFarePrice(distance){
 
 
      calculatesFarePrice =Math.abs(start-destination)*528-800;
-     if (calculatesFarePrice<1){return 0}
+     if (calculatesFarePrice<1){return gives customers a free sample}
      else {return calculatesFarePrice}
      }
 
