@@ -19,14 +19,14 @@ function calculatesFarePrice(distance){
 
 
      function calculatesFarePrice(start, destination){
-       let x = ''
+       let calculatesFarePrice = ''
        if (start, destination===43, 44){
 
 
-     x =Math.abs(start-destination)*528-800;
-     if (x<1){return 0}
-     else {return x}
+     calculatesFarePrice =Math.abs(start-destination)*528-800;
+     if (calculatesFarePrice<1){return 0}
+     else {return calculatesFarePrice}
      }
 
-     
+
 } //belong to if(stat... function)
